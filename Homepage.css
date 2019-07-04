@@ -1,0 +1,157 @@
+@media screen and (max-width: 900px){
+	.column{
+		width: 100%;
+	}
+}
+
+body{
+    width: 100%;
+    margin: auto;
+    font-family:Calibri;
+}
+.background {
+    width: 95%;
+    margin: auto;
+    background-image: url(k.jpg);
+}
+
+/*ALL LINKS*/
+a {
+	font-size: 17px;
+	color: black;
+	padding: 12px 16px
+	text-decoration: none;
+	display: block;
+}
+
+
+.dropdown {
+	display: inline-block;
+	text-decoration: none;
+	margin-left: 60%;
+	margin-top: 20px;
+}
+
+.dropdown button{
+	border-radius: 200px;
+	width: 300px;
+	height: 50px;
+
+}
+
+.dropdown-menu{
+	min-width: 700px;
+	text-decoration: none;
+	align-items: center;
+
+}
+
+.dropdown a {
+	color: #000;
+	text-decoration: none;
+	align-items: center;
+}
+.dropdown-content{
+	display: block;
+	background-color: #fff;
+	align-items: center;
+	text-decoration: none;
+}
+
+/*HEADER*/
+.header{
+	text-align: center;
+	font-size: 15px;
+	font-family: Verdana, sans-serif;
+}
+
+.header h1{
+	font-style: normal;
+	font-weight: bold;
+	font-family: monospace;
+}
+/*SMALL HEADERS*/
+.header2{
+	text-align: center;
+	background:#418DFB;
+}
+* {
+	box-sizing: border-box;
+}
+
+/*STYLING THE SEARCH BAR*/
+.search_bar input[type=text]{
+	float: left;
+	padding: 10px;
+	font-size: 17px;
+	border:1px solid grey;
+	width:50%;
+	margin-left: 40%;
+	float: left;
+	border-radius: 20px;
+	background: #f1f1f1;
+}
+
+/*Style the submit button*/
+form.search_bar button {
+	float: left;
+	width: 100px;
+	padding: 10px;
+	background: #2196f3;
+	color: white;
+	font-size: 17px;
+	border: 1px solid grey;
+	border-left: none;
+	cursor: pointer;
+
+}
+
+form.search_bar button:hover {
+	background: #0b7dda;
+}
+
+/*Clear floats*/
+form.search_bar:after{
+	content: "";
+	clear: both;
+	display: table;
+}
+
+
+/*PIC AT PAGE BOOTOM */
+.popbox{
+	width: 100%;
+	height: 35%;
+	padding: 3%;
+	background-image: url(p.jpg);
+	back
+  	border-radius:20px;
+  	font-size: 20px;
+  	color: white;
+}
+
+/*FOOTER*/
+.footer{
+	display: block;
+	position: fixed bottom;
+	text-align: center;
+	background-color: #f1f1f1;
+	font-size: 18px;
+	color: black;
+	font-style: italic;
+}
+
+.jumbomage {
+  width: 600px;
+  height: 400px;
+}
+
+.searchbtn{
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #418DFB;
+  border-color: #418DFB;
+  cursor: pointer;
+  color: #fff;
+}

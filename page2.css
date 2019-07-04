@@ -1,0 +1,165 @@
+@media only screen and (max-width: 900px) {
+
+.first_column {
+      width: 50%;
+      padding-bottom: 10px;
+      float: left;
+      margin-left: 100px;
+      height: 100%;
+}
+
+.second_column {
+        width: 100%;
+        padding-bottom: 10px;
+        float: none;
+
+}
+}
+
+.jumbotron{
+  background-color: #348AA7;
+}
+
+.jumbotron h1{
+  color: #418DFB;
+}
+
+
+body{
+    width: 100%;
+    margin: auto;
+    font-family:Calibri;
+}
+
+.header{
+    text-align: center;
+    font-size: 15px;
+    font-family: Verdana, sans-serif;
+}
+
+.first_column {
+    padding: 0 10px 0 0;
+    float: left;
+    width: 30%;
+    flex:50%;
+    display: table;
+    height: 100;
+    margin-left: 40px;
+}
+
+.second_column {
+    padding: 0 10px 0 0;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    float: right;
+    width: 66%;
+    flex:50%;
+    height: 100%;
+    display: table;
+    height: 100%;
+    border-left-style: solid;
+    border-left-color:#AEB6BF;
+    border-left-width: 15px;
+}
+
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/*STYLING THE SEARCH BAR*/
+.search-bar input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid;
+  width: 50%;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  margin-left: 50px;
+  margin-top: 70px;
+}
+
+{
+  box-sizing: border-box;
+}
+
+.footer{
+    display: block;
+    position: fixed;
+    text-align: center;
+    background-color: #f1f1f1;
+    font-size: 18px;
+    color: black;
+    font-style: italic;
+}
+
+h2{
+    font-family: arial, Calibri;
+    color: #2E4053;
+
+}
+
+.rule{
+    display: ruby-base-container;
+    margin-top: 10px ;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    width: 100%;
+    height: 2%;
+    color:  #418DFB;
+}
+
+.textbox {
+    border-radius: 5px;
+    box-shadow:#2E4053;
+    background-color: #EAEDED;
+    height: 30px;
+    width: 70%;
+}
+
+.textarea_box {
+    border-radius: 5px;
+    box-shadow:#2E4053;
+    background-color: #EAEDED;
+    width: 70%;
+}
+
+.resetbtn{
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: 	#418DFB;
+  border-color: 	#418DFB;
+  cursor: pointer;
+  color: #fff;
+}
+
+.submitbtn{
+  width: 150px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: 	#418DFB;
+  border-color: 	#418DFB;
+  cursor: pointer;
+  color: #fff;
+}
+
+.searchbtn{
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #418DFB;
+  border-color: #418DFB;
+  cursor: pointer;
+  margin-left: 250px;
+  color: #fff;
+}
+
+.jumbomage {
+  width: 600px;
+  height: 400px;
+}
